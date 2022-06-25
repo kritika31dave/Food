@@ -1,0 +1,126 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    border:1px solid whitesmoke;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    height: 900px;
+    width:1250px;
+  }
+.menu{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+}
+.side{
+    display: flex;
+    width:200px;
+    height: 900px;
+    background-color:lightgreen;
+}
+.side div{
+    position: relative;
+    top:150px;
+    left:40px;
+    width:200px;
+    height: 50px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: lightgreen;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+}
+.item{
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    grid-template-rows:190px 190px 190px;
+    align-self: center;
+    grid-gap:10px 10px;
+}
+.butt{
+    display: flex;
+    flex-direction: column;
+    background-color: lightpink;
+    border:1px solid whitesmoke;
+    border-radius: 30px;
+    cursor: pointer;
+   
+}
+.sec{
+    padding-top:10px;
+    display: flex;
+    flex-direction: row;
+    gap:120px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.rate{
+    background-color: black;
+    color: white;
+    width:50px;
+    height:15px ;
+    border:1px solid black;
+    border-radius: 30px;
+}
+.heart{
+    width:30px;
+    height: 15px;
+    border:1px solid whitesmoke;
+    border-radius: 50px;
+}
+.photo{
+   padding-left:80px;
+   padding-top: 10px;
+}
+.photo img{
+    width:70px;
+    height: 50px;
+}
+.food{
+    display: flex;
+    flex-direction: column; 
+}
+.price{
+    display: flex;
+    flex-direction: row;
+}
+.partition{
+    width:40px;
+    height: 15px;
+    position: relative;
+    top:20px;
+    background-color: whitesmoke;
+    color:pink;
+    font-weight: bold;
+    font-size: 10px;
+    border: 1px solid ;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 712px) {
+     .main{
+        display: flex;
+        flex-direction: column;
+        
+        height: 1990px;
+        width:400px;
+     }
+    .menu{
+        justify-content: center;
+    }
+    .side{
+        display: none;
+    }
+    .side div {
+        display: none;
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+}

@@ -1,0 +1,36 @@
+.order{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 900px;
+    border: 1px solid whitesmoke;
+}
+.check{
+    position: relative;
+    top:200px;
+    left:70px;
+    width:100px;
+    height: 30px;
+    background-color: lightgreen;
+    color:whitesmoke;
+    font-weight: bold;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.your{
+    display:flex;
+    flex-direction: row;
+    width:280px;
+    height: 50px;
+    gap:10px;
+    box-shadow: 0px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+@media only screen and (max-width: 600px) {
+    .order{
+        align-items: center;
+        justify-content: center;
+    }
+}
+

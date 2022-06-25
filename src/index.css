@@ -5,6 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  padding:50px;
+}
+@media only screen and (max-width: 712px){
+  body{
+    display: flex;
+    justify-content: flex-start;
+   padding: 0px;
+  }
 }
 
 code {
